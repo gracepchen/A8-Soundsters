@@ -42,17 +42,17 @@
   },
   {
     "id": "sound12",
-    "name": "Public Swimming Pool",
+    "name": "Swimming Pool",
     "soundEffectnum": 12
   },
   {
     "id": "sound14",
-    "name": "Laughing And Giggling Kids",
+    "name": "Joyful Children",
     "soundEffectnum": 14
   },
   {
     "id": "sound16",
-    "name": "Scary Foot Steps",
+    "name": "Scary Footsteps",
     "soundEffectnum": 16
   },
   {
@@ -104,7 +104,7 @@
   },
   {
     "id": "sound26",
-    "name": "Inception Button",
+    "name": "Inception",
     "soundEffectnum": 26
   },
   {
