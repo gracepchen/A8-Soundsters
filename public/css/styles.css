@@ -12,8 +12,9 @@ html, body
 }
 
 h4 {
-  font-size: 140%;
+  font-size: 130%;
   font-weight: bold;
+  color: #00BCD4;
 }
 
 .btn {
@@ -83,6 +84,7 @@ li {
     position:fixed;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-bottom: 1%;
     width:50%;
     bottom:16%;
     right:25%;
