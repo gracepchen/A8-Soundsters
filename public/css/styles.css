@@ -24,8 +24,12 @@ h4 {
   background-color: white;
 }
 
-.black { /* change to "iconColor" later! */
+.white { /* change to "iconColor" later! */
 color: #fff;
+}
+
+.black {
+  color: #000;
 }
 
 /*ul {
@@ -52,12 +56,11 @@ li {
 
   i {
     padding-bottom: 2%;
-    padding-top: 3%;
+    padding-top: 12%;
   }
 
 .icons {
     position:fixed;
-    padding-top: 1%;
     padding-bottom: 0;
     width:100%;
     bottom: 0;
@@ -66,9 +69,13 @@ li {
     color: white;
   }
 
-  .center {
-    display: flex;
-    justify-content: center;
+  .icons p {
+    padding-bottom: 0;
+    margin-bottom: 10%;
+  }
+
+  .activeIcon {
+    background-color: #00BCD4;
   }
 
 /* Start Working/All Done button */
@@ -107,15 +114,12 @@ li {
 
 /* Sound settings */
   .alertperiod {
-
-
     float:left;
     padding-top: 5%;
     padding-bottom: 5%;
   }
 
   .breaktime {
-
     float:right;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -228,10 +232,13 @@ li {
       margin: 1%;
     }
     i {
-      padding-top: 15%;
+      padding-top: 20%;
     }
     .icons {
-      right: 5%;
+      right: 4%;
+    }
+    .icons p {
+        margin: 5%;
     }
     footer {
       padding: 18%;
@@ -239,6 +246,7 @@ li {
     }
     .float{
       bottom:15%;
+      padding: 3%;
     }
     .squares > button{
       width: 30%;
