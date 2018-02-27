@@ -4,7 +4,7 @@ $(document).ready(centerIcons);
 
 function centerIcons() {
   $('.icons i').addClass('d-flex justify-content-center align-items-center');
-  $('.icons p').addClass('d-flex justify-content-center align-items-center');
+  $('.icons p').addClass('d-flex justify-content-center align-items-center mt-1');
 }
 
 function resetSlider() {

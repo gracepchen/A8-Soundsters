@@ -219,6 +219,7 @@ li {
   @media (max-width: 500px) {
     h4 {
       font-size: 120%;
+      margin-bottom: 0;
     }
     p {
       font-size: 80%;
@@ -226,15 +227,24 @@ li {
     li {
       margin: 1%;
     }
+    i {
+      padding-top: 15%;
+    }
+    .icons {
+      right: 5%;
+    }
     footer {
-      padding: 8%;
+      padding: 18%;
       margin-top: 0%;
     }
     .float{
-      bottom:2%;
+      bottom:15%;
     }
     .squares > button{
       width: 30%;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 3px;
     }
 
   }
