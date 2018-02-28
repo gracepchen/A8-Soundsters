@@ -17,7 +17,13 @@
 					<div class="col-sm-4"></div>
 					<div class="col-sm-4"><h1>SoundTrack</h1></div>
 					<div class="col-sm-4">
-						
+					{{#if viewOLD}}
+						<ul>
+							<li><i class="fas fa-info-circle fa-lg" onclick="helpStart()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpStart()" onmouseover="" style="cursor: pointer;">Help</p></li>
+							<li><a href="profile" class="black" disabled><i class="fas fa-user fa-lg"></i><p>Profile</p></a></li>
+							<li><a href="/" class="black"><i class="fas fa-sign-out-alt fa-lg"></i><p>Logout</p></a></li>
+						</ul>
+					{{/if}}
 					</div>
 				</div>
 
@@ -88,7 +94,7 @@
 
 
 
-
+{{#if viewNEW}}
 <div class="container-fluid">
 				<div class="row icons">
 					<div class="col-3"><a href="#" class="black"><i class="fas fa-cogs fa-lg"></i><p>Settings</p></a></div>
@@ -98,7 +104,7 @@
 				</div>
 			</div>
 		</center>
-
+{{/if}}
 
 
 	</div>
