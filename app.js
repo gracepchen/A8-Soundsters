@@ -38,11 +38,19 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+//redesigned pages
 app.get('/home', index.view);
 app.get('/', login.view);
 app.get('/screen2', screen2.view);
 app.get('/alertsettings', alertsettings.view);
 app.get('/profile', profile.view);
+
+//OLD pages
+app.get('/homeOLD', index.viewOLD);
+app.get('/OLD', login.viewOLD);
+app.get('/screen2OLD', screen2.viewOLD);
+app.get('/alertsettingsOLD', alertsettings.viewOLD);
+app.get('/profileOLD', profile.viewOLD);
 // Example route
 // app.get('/users', user.list);
 
