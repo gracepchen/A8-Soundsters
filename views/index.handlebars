@@ -9,13 +9,15 @@
 		<link rel="stylesheet" type="text/css" href="/css/styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+		
 	</head>
 	<body>
 		<div class="container">
 			<center>
 				<div class="row mt-4">
 					<div class="col-sm-4"></div>
-					<div class="col-sm-4"><h1>SoundTrack</h1></div>
+					<div class="col-sm-4"><h1>SoundTrack</h1>
+					</div>
 					<div class="col-sm-4">
 					{{#if viewOLD}}
 						<ul>
@@ -33,7 +35,7 @@
 
 				<div class="soundscroll squares" id="scroll1">
 					{{#each soundscapes}} 
-					<button class="btn btn-outline-secondary scape" onclick="soundEffect({{soundEffectnum}})" id="{{id}}">{{name}}</button>
+					<button class="btn btn-outline-secondary scape {{color}}" onclick="soundEffect({{soundEffectnum}})" id="{{id}}">{{name}}</button>
 					{{/each}}
 				</div>
 
@@ -41,7 +43,7 @@
 				<h4 data-toggle="tooltip" title="The sound that will play whenever you're off-task for too long">Select an Alert Sound</h4>
 				<div class="soundscroll squares" id="scroll2">
 					{{#each alerts}} 
-					<button class="btn btn-outline-secondary alarm" onclick="soundEffect({{soundEffectnum}})" id="{{id}}">{{name}}</button>
+					<button class="btn btn-outline-secondary alarm {{alarm}}" onclick="soundEffect({{soundEffectnum}})" id="{{id}}">{{name}}</button>
 					{{/each}}
 				</div>
 
